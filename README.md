@@ -19,7 +19,7 @@ O site inclui exemplos práticos das seguintes funções do Bootstrap:
 ---
 
 🛠️ Tecnologias Utilizadas
-HTML5: Estrutura do site.
-CSS3: Estilização adicional.
-Bootstrap: Framework principal.
-JavaScript: Funcionalidades interativas básicas.
+- HTML5: Estrutura do site.
+- CSS3: Estilização adicional.
+- Bootstrap: Framework principal.
+- JavaScript: Funcionalidades interativas básicas.
