@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="image/bootstrap-stack-removebg-preview__1___1_-removebg-preview.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-light">
+
+    <header class="blog-header d-flex align-items-center " style="height: 60px;">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light d-flex align-items-center gap-2" href="#">
+                <img src="./images/icons8-bootstrap-100-Photoroom.png"alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                Bootstrap
+              </a>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Oque é bootstrap </h2>
+                    <p>O Bootstrap é um framework front-end de código aberto criado pela equipe do Twitter em 2011, com
+                        o objetivo de facilitar o desenvolvimento de sites e aplicações web. Ele oferece uma coleção de
+                        componentes prontos, como botões, formulários, tabelas e barras de navegação.</p>
+                    <a href="https://www.hostinger.com.br/tutoriais/o-que-e-bootstrap" target="_blank"
+                        class="btn btn-primary">Leia mais</a>
+                </div>
+
+                <div class="bg-light my-4 w-100" style="height: 1px">
+                    
+                </div>
+
+                <h2 class="blog-post-title">Card</h2>
+
+                <div class="container">
+                    <div class="blog-post">
+                        <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./images/Vantagens-removebg-preview.png" class="card-img-top w-75 h-75 mt-3" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Vantagens</h5>
+                                <p class="card-text">Aqui estão algumas vantagens de se utilizar o bootstrap</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalVantagem">Ler mais</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-post">
+                        <div class="card card text-white bg-dark mb-3" style="width: 18rem;">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./images/desvantagens-Photoroom.png" class="card-img-top w-75 h-75 mt-3" style="" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Desvantagens</h5>
+                                <p class="card-text">Aqui estão algumas desvantagens de se utilizar o bootstrap</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalDesvantagem">Ler mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-light my-4" style="height: 1px; width: 100%;"></div>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Título da Postagem 3</h2>
+                    
+                    <div class="accordion" id="accordion">
+                        <div class="accordion-item bg-dark">
+                          <h2 class="accordion-header ">
+                            <button class="accordion-button bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Pagina Institucional
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Criação de um site responsivo para empresas com menus de navegação, carrosséis de imagens e seções informativas.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item bg-dark">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Blog pessoal
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Sites que precisam de design rápido e responsivo para exibir postagens ou artigos
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item bg-dark">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Sistemas de administração
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Painéis administrativos com tabelas dinâmicas, alertas, barras laterais e gráficos.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <a target="_blank" href="https://getbootstrap.com/docs/5.3/components/accordion/" class="btn btn-primary mt-3">Leia mais</a>
+                </div>
+                
+                <h2 class="mt-4">Sites feitos com Bootstrap</h2>
+                <div id="carouselExampleAutoplaying" class="carousel slide d-flex align-items-center" data-bs-ride="carousel" style="height: 500px; width: 600px;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/Tema1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Tema2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Tema3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Tema4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Tema5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-white" style="background-color: #6e2cf3;">
+        <div class="text-center py-3">
+          <p class="mb-0">developed by bozo</p>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="modalVantagem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Vantagens</h1>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Remoção do jQuery</li>
+                        <li>Suporte Completo a CSS Grid</li>
+                        <li>Compatibilidade com o Moderno Navegadores</li>
+                        <li>Suporte a Formulários Melhorado</li>
+                        <li>Responsividade: Possui um sistema de layout 100% responsivo</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalDesvantagem" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Desvantagens</h1>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Design Similar</li>
+                        <li>Tamanho do Arquivo</li>
+                        <li>Curva de Aprendizado para Customização Avançada</li>
+                        <li>Dependência de JavaScript</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Scripts do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
